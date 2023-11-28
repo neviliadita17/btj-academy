@@ -25,8 +25,9 @@
 
 - Menambahkan dua routing baru, yaitu /about dan /contact
 - Mengganti port yang di-listen menjadi 5001.
-
-
+  
+# * note : untuk soal selanjutnya akan dilanjut lagi sebelum deadline yang diberikan
+  
 ## Buatlah satu playbook dengan beberapa task yaitu
 ### 1. Menyalin file dari local ke server btj-academy
      - name: Copy app.py to remote server
