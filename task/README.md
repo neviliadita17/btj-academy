@@ -31,11 +31,12 @@
 ## Buatlah satu playbook dengan beberapa task yaitu
 ### 1. Menyalin file dari local ke server btj-academy
      - name: Copy app.py to remote server
-        copy:
-          src: "./app.py"
-          dest: "{{ remote_path }}/app.py"
+      copy:
+        src: "./app.py"
+        dest: "{{ remote_path }}/app.py"
 
 ### 2. Build docker image untuk aplikasi app.py diatas
+
 ### 3. Jalankan container yang sudah dibuild
 
 
